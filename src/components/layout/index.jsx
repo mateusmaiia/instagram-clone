@@ -1,3 +1,4 @@
+import { Story } from '../story'
 import './style.css'
 
 export function Layout (){
@@ -6,7 +7,7 @@ export function Layout (){
         <div className="mainGrid">
             <div className="firstColumn" style={{gridArea:'firstColumn'}}>
                 <div className="box">
-                    stories
+                    <Story />
                 </div>
 
                 <div className="box">

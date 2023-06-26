@@ -7,11 +7,11 @@
   grid-gap: 50px;
 
   max-width: 957px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .box {
-  background: red;
+  background: var(--background);
   border: 1px solid var(--border);
 }
 
