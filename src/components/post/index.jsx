@@ -12,9 +12,9 @@ import './style.css'
 export function Post () {
     return (
         <>
-            <header>
+            <header className='header-post'>
                     <div className='infos-post'>
-                        <img src="https://github.com/mateusmaiia.png" alt="" />
+                        <img className='img-header-post' src="https://github.com/mateusmaiia.png" alt="" />
                         <p>matteusmaia_</p>
                     </div>
                     <div>
@@ -58,8 +58,15 @@ export function Post () {
 
                 <div className="comment">
                      <div className="fake-comment">
-                        <BsEmojiSmile />
+                        <IconContext.Provider value={{size: '25px'}}>
+                            <div className="icon">
+                                <BsEmojiSmile />
+                            </div>
+                        </IconContext.Provider>
+
+                        <input type="text" placeholder='Adicione um comentário...' />
                      </div>
+                        <button>Publicar</button>
                 </div>
 
             </div>

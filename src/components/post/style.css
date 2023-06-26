@@ -1,11 +1,11 @@
-header {
+.header-post {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 10px;
 }
 
-header img {
+.header-post .img-header-post {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -59,4 +59,28 @@ header img {
 .time-post time {
   font-size: 11px;
   color: var(--secondary);
+}
+
+.comment {
+  border-top: 1px solid var(--border--secondary);
+  margin-top: 8px;
+  display: flex;
+}
+.fake-comment {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+  gap: 16px;
+}
+
+.fake-comment {
+  font-size: 16px;
+}
+
+.comment button {
+  color: var(--quartary);
+  cursor: pointer;
+  font-weight: 500;
 }
