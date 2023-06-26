@@ -15,6 +15,9 @@
   border: 1px solid var(--border);
 }
 
-.sugestion-box {
-  background: darkblue;
+.suggestion-box {
+  flex: 1;
+  position: fixed;
+  width: 100%;
+  max-width: 293px;
 }
