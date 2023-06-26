@@ -18,13 +18,13 @@ export function Suggestion() {
                 </div>
             
 
-                {/* <div className="header-main-suggestion" >
+                <div className="header-main-suggestion" >
 
                     <p>Sugestões para você</p>
 
                     <span>Ver tudo</span>
 
-                </div> */}
+                </div>
             </div>
         </div>
     )
